@@ -1,0 +1,71 @@
+{
+  "menu": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "id": "234",
+              "title": "Store A2",
+              "expanded": false
+            },
+            {
+              "id": "567",
+              "title": "Store B2",
+              "expanded": false
+            }
+          ],
+          "title": "Bussines",
+          "expanded": false
+        },
+        {
+          "id": "456",
+          "title": "Human Resource2",
+          "expanded": false
+        }
+      ],
+      "title": "Menu1",
+      "id": 1
+    },
+    {
+      "title": "Menu2",
+      "id": 2,
+      "children": [
+        {
+          "id": "456",
+          "title": "Human Resource2",
+          "expanded": false
+        },
+        {
+          "id": "789",
+          "title": "Bussiness2",
+          "children": [
+            {
+              "id": "234",
+              "title": "Store A2",
+              "expanded": false
+            },
+            {
+              "id": "567",
+              "title": "Store B2",
+              "expanded": false
+            }
+          ],
+          "expanded": false
+        }
+      ],
+      "expanded": false
+    },
+    {
+      "id": 3,
+      "title": "Menu3",
+      "expanded": false,
+      "children": [
+        {
+          "title": "SubMneu3",
+          "expanded": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: system-ui;
+}
+
+/* div{
+   border: 1px solid red;
+} */
+.header{
+   /* margin-bottom: 550px; */
+    position: relative;
+   left: -50px;
+   /* border: 3px solid #73AD21; */
+   top: -80px; 
+   height: 35vh;
+   width: 120%;
+   background: rgb(195,50,97);
+background: linear-gradient(90deg, rgba(195,50,97,1) 31%, rgba(153,52,199,1) 52%, rgba(115,0,255,1) 100%);
+}
+.minHeader{
+   position: relative;
+   /* border: 1px solid rgb(51, 179, 37); */
+   width: 110%;
+   left: -50px;
+   top: -20px;
+   height: 8vh;
+}
+.minHeaderIcons{
+   width: 20%;
+   /* border: 1px solid red; */
+   display: flex;
+   height: 35vh;
+   justify-content: center;
+   align-items: center;
+
+   /* gap: 25px; */
+}
+.star{
+   /* border: 10px solid red; */
+   width: 50%;
+   height: 35vh;
+   margin-left: 35px;
+   margin-top: 25px;
+}
+
+.menuName{
+   position: relative;
+   /* border: 1px solid rgb(51, 179, 37); */
+   width: 110%;
+   left: 85px;
+   top: 55px;
+   height: 8vh;
+   color: white;
+}
+.menuName2{
+   position: relative;
+   /* border: 1px solid rgb(51, 179, 37);/ */
+   width: 110%;
+   /* left: 45px; */
+   top: 70px;
+   height: 8vh;
+   color: white;
+   margin-left: 78%;
+}
+.menuContainer{
+   /* margin: 0; */
+   /* border: 1px solid red; */
+   background-color: rgb(223, 214, 214);
+   position: relative;
+   top: -175px;
+   border-radius: 15px;
+   width: 75%;
+   min-height: 50vh;
+   height: auto;
+
+}
+.collapsFlags{
+   width: 100%;
+border-bottom: 2px solid  rgb(161, 144, 144);
+display: flex;
+height: 6vh;
+}
+.flags{
+   display: flex;
+   gap: 5px;
+   margin-left: 10px;
+   justify-content: center;
+   align-items: center;
+}
+.collaps{
+   margin-left: auto;
+   width: 35px;
+   height: 35px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    border-radius: 5px;
+    margin-right: 15px;
+    background: rgb(176, 11, 64);
+  margin-top: 5px;
+   /* border: 1px solid red; */
+}
+
+.addGlavCategories{
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 25px;
+   height: 50px;
+   width: 320px;
+   border: 3px dashed rgb(91, 80, 80);
+}
+
+.buttons{
+   display: flex;
+   gap: 55px;
+   color: rgb(177, 123, 123);
+   margin-top: 10px;
+   /* border: 1px solid red; */
+   /* width: 0%; */
+}
+.editAddDeleteBtn3{
+   color: rgb(133, 71, 71);
+}
+.addMenuInput{
+border-radius: 15px;
+border: none;
+height: 35px;
+margin-left:25px ;
+width: 70%;
+padding-left: 25px;
+}
+.menuAddInp{
+/* border: 1px solid red; */
+display: flex;
+/* justify-content: center; */
+width: 70%;
+align-items: center;
+gap: 10px;
+height: 45px;
+}
+.inpChild{
+   border: 1px solid red;
+    width: 420px;
+    height: 40px;
+   margin-top: 2px;
+   position: relative;
+   top: 55px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom:105px ;
+   /* background-color: rgb(10, 207, 141); */
+  
+}
+.inpChildEdit{
+ /* padding: 10px; */
+   /* border: 1px solid red; */
+    width: 300px;
+    height: 30px;
+   margin-top: 2px;
+   position: relative;
+   top: -8px;
+   right: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+   /* margin-bottom:105px ; */
+   animation: inpChildEdit 1s forwards;
+   animation-direction: alternate;
+
+ }
+ 
+ @keyframes inpChildEdit {
+   0% {
+     transform: translate(-200px, -0px);    
+   }
+   100% {
+     transform: translate(0px, 0px);
+   }
+ }
+.inpChildEdit input{
+   /* margin-right: 85px; */
+   /* padding-left: 8px; */
+   border: none;
+   /* font-size: 32px; */
+}
+.catInpAdd{
+   margin-top: 18px;
+   /* border: 5px  solid rgb(12, 150, 184); */
+   /* margin-top: 55px; */
+   /* margin-bottom: 125px; */
+   height: 35px;
+   /* position: relative;
+   left: -55px; */
+   width: 550px;
+}
+.catBtnAdd{
+    margin-top: 15px;
+   /* border: 1px  solid red; */
+   height: 35px;
+}
+/* .AccountBalanceIcon{
+   position: relative;
+   top: 15px;
+   left: -195px;
+   color: white;
+   /* border: 1px solid red; */
+   /* width: 25px;
+} */ 
+
+.allGlav{
+   /* border: 1px solid red; */
+   display:flex;
+   /* gap: 15px; */
+}
+.nameCat{
+   /* border: 1px solid red; */
+   width: 35%;
+   height: 100vh;
+   margin-left: auto;
+position: relative;
+top: -55px;
+display: flex;
+flex-direction: column;
+
+
+}
+.nameCatTitle{
+   margin-left: 25%;
+   color: black;
+   margin-top: 25px;
+   font-size: 20px;
+
+}
+.addDivIcon2{
+   /* border: 1px solid red; */
+   width: 50px;
+   height: 50px;
+   border-radius: 15px;
+   margin-left: 50%;
+   margin-top: 10%;
+}
+.textFileUrl{
+   /* border: 1px solid red; */
+   width: 70px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   /* border-right: px; */
+}
+
+
+#square {
+   height: auto;
+   width: auto;
+   /* background-color: #3d9970; */
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-content: center;
+   color: rgb(171, 19, 19);
+   padding: 5px;
+   animation: shimmy 1s forwards;
+   animation-direction: alternate;
+ }
+ 
+ @keyframes shimmy {
+   0% {
+     transform: translate(-100px, -150px);    
+   }
+   100% {
+     transform: translate(-100px, -70px);
+   }
+ }
+ .iconAddMenu{
+   position: absolute;
+   left: -80px;
+   color: white;
+ }
+ .menu   div{
+   /* border: 1px solid red; */
+  background-color: rgb(110, 60, 195);
+  border: none;
+
+ }
+ .menu > div{
+   background-color: rgb(223, 214, 214); 
+    margin-top: 35px;
+
+ }
+ .menu > div>div{
+   background-color: rgb(223, 214, 214);   
+    /* color: rgb(110, 60, 195) ; */
+ }
+ .menu > div>div>div{
+   background-color: rgb(223, 214, 214);
+
+ }
+ .menu > div>div>div> div{
+   background-color: rgb(223, 214, 214);  
+   
+ }
+ .menu > div>div>div> div>div{
+   background-color: rgb(110, 60, 195);  
+
+ }
+ .menu > div>div>div> div>div{
+   background-color: rgb(110, 60, 195);
+   height: 0.0000001px;
+   border: none;  
+     /* color: rgb(110, 60, 195) ; */
+     /* border: 1px solid red; */
+ }
+ /* .menu > div>div>div> div>div>div{
+   background-color: rgb(110, 60, 195);
+   /* height: 0.0000001px; */
+   /* wi */
+   /* border: none;   */
+     /* color: rgb(110, 60, 195) ; */
+     /* border: 1px solid red; */
+     /* display: no; */
+ /* }
+ .menu > div>div>div> div>div>div>div{
+   background-color: rgb(110, 60, 195);
+   height: 0.0000001px; */
+   /* wi */
+   /* border: none;   */
+     /* color: rgb(110, 60, 195) ;
+     border: 1px solid red;
+     display: no; */
+ 
+
+
+ .alertDiv{
+   /* border: 5px solid red; */
+    position: relative;
+ }
+
+
+
+ .imgGlavDiv{
+   border: 1px solid white;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+ }
